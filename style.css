@@ -1,0 +1,165 @@
+* html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+/* NAVBAR */
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px #c6ddfe;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 264px;
+  height: 50px;
+}
+
+.navbar {
+  justify-content: start;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list li {
+  display: flex;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: #007bff;
+}
+
+/* MAIN MENU */
+/* SELECTION1 */
+.Selection1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0edff;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 50px;
+  box-shadow: 0 4px 15px blue;
+}
+.Text {
+  color: #8e9ba7;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 500px;
+}
+
+h1 {
+  color: #1f4bb6;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 10px 0;
+}
+
+.fotodokter {
+  max-width: auto;
+  max-height: auto;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+.fotodokter img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* SELECTION2 */
+.Selection2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ListKeluhan {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.keluhankulit {
+  text-align: center;
+}
+
+.keluhankulit img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.keluhankulit p {
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* SELECTION3 */
+.Selection3 {
+  padding: 20px;
+  background-color: #e5f1fd;
+  text-align: center;
+}
+
+.Listproduk {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.List {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.List h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.List h5 {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.Listproduk .List img {
+  width: 200px;
+  height: auto;
+  background-color: #3a79bd;
+  border-radius: 30px;
+}
